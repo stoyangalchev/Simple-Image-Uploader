@@ -86,7 +86,7 @@ const FileUpload = () => {
         {files.map((file) => (
           <li key={file.filename}>
             <img
-              src={`http://localhost:5000/files/${file.filename}`}
+              src={`http://localhost:3000/files/${file.filename}`}
               alt={file.filename}
               className={styles.thumbnail}
             />
